@@ -1,0 +1,5 @@
+name: SlideSupport
+script: support.js
+stylesheet: footer.css
+config:
+  smaller: false

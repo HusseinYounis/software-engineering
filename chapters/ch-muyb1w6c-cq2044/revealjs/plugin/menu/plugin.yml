@@ -1,0 +1,9 @@
+name: RevealMenu
+script: [menu.js, slide-menu.js]
+stylesheet: [menu.css, slide-menu.css]
+config:
+  menu:
+    side: "left"
+    useTextContentForMissingTitles: true
+    markers: false
+    loadIcons: false
