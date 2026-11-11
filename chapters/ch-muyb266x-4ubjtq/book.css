@@ -661,6 +661,7 @@ body.book.sidebar-collapsed .book-sidebar { display: none; }
 .book-page .example-box { border-left: 4px solid var(--book-success); }
 .book-page .example-box.book-exercise { border-left: 4px solid var(--book-success); }
 .book-page .example-box.book-scenario { border-left: 4px solid var(--book-info); }
+.book-page .example-box.book-problem { border-left: 4px solid var(--book-warning); }
 .book-page .ex-icon, .book-page .def-icon { font-size: 1em; }
 .book-page .example-footer { margin-top: .5em; color: var(--book-muted); font-size: .85rem; }
 .book-page .example-solution { margin-top: .6em; border-top: 1px dashed var(--book-border); padding-top: .5em; }

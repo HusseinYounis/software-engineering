@@ -462,6 +462,22 @@
   content: "";
 }
 
+/* Problem boxes: same chrome as examples, auto-numbered with their own
+   counter so a problem never shares a sequence with examples, exercises,
+   or scenarios. Declared after .example-box so `counter-increment` resolves
+   to the problem counter only, leaving example-counter alone. */
+.book-problem {
+  counter-increment: problem-counter;
+}
+
+.book-problem .ex-label::before {
+  content: "Problem " counter(problem-counter) ": ";
+}
+
+.book-problem .manual-ex-label::before {
+  content: "";
+}
+
 .example-footer {
   margin-top: 1em;
   padding-top: 0.8em;

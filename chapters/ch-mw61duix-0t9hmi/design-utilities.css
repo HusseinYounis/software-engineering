@@ -1,0 +1,148 @@
+/* =============================================
+ DESIGN TOKENS - Unified Appearance Utilities
+ Generated from src/shared/design-tokens.json
+ ============================================= */
+.reveal .app-w-auto { width: auto }
+.reveal .app-h-auto { height: auto }
+.reveal .app-w-sm { width: 33% }
+.reveal .app-h-sm { height: 33% }
+.reveal .app-w-md { width: 50% }
+.reveal .app-h-md { height: 50% }
+.reveal .app-w-lg { width: 66% }
+.reveal .app-h-lg { height: 66% }
+.reveal .app-w-full { width: 100% }
+.reveal .app-h-full { height: 100% }
+.reveal .app-m-none { margin: 0 }
+.reveal .app-m-xs { margin: 4px }
+.reveal .app-m-sm { margin: 8px }
+.reveal .app-m-md { margin: 16px }
+.reveal .app-m-lg { margin: 24px }
+.reveal .app-m-xl { margin: 32px }
+.reveal .app-mt-none { margin-top: 0 }
+.reveal .app-mt-xs { margin-top: 4px }
+.reveal .app-mt-sm { margin-top: 8px }
+.reveal .app-mt-md { margin-top: 16px }
+.reveal .app-mt-lg { margin-top: 24px }
+.reveal .app-mt-xl { margin-top: 32px }
+.reveal .app-mb-none { margin-bottom: 0 }
+.reveal .app-mb-xs { margin-bottom: 4px }
+.reveal .app-mb-sm { margin-bottom: 8px }
+.reveal .app-mb-md { margin-bottom: 16px }
+.reveal .app-mb-lg { margin-bottom: 24px }
+.reveal .app-mb-xl { margin-bottom: 32px }
+.reveal .app-ml-none { margin-left: 0 }
+.reveal .app-ml-xs { margin-left: 4px }
+.reveal .app-ml-sm { margin-left: 8px }
+.reveal .app-ml-md { margin-left: 16px }
+.reveal .app-ml-lg { margin-left: 24px }
+.reveal .app-ml-xl { margin-left: 32px }
+.reveal .app-mr-none { margin-right: 0 }
+.reveal .app-mr-xs { margin-right: 4px }
+.reveal .app-mr-sm { margin-right: 8px }
+.reveal .app-mr-md { margin-right: 16px }
+.reveal .app-mr-lg { margin-right: 24px }
+.reveal .app-mr-xl { margin-right: 32px }
+.reveal .app-mx-none { margin-left: 0; margin-right: 0 }
+.reveal .app-my-none { margin-top: 0; margin-bottom: 0 }
+.reveal .app-mx-xs { margin-left: 4px; margin-right: 4px }
+.reveal .app-my-xs { margin-top: 4px; margin-bottom: 4px }
+.reveal .app-mx-sm { margin-left: 8px; margin-right: 8px }
+.reveal .app-my-sm { margin-top: 8px; margin-bottom: 8px }
+.reveal .app-mx-md { margin-left: 16px; margin-right: 16px }
+.reveal .app-my-md { margin-top: 16px; margin-bottom: 16px }
+.reveal .app-mx-lg { margin-left: 24px; margin-right: 24px }
+.reveal .app-my-lg { margin-top: 24px; margin-bottom: 24px }
+.reveal .app-mx-xl { margin-left: 32px; margin-right: 32px }
+.reveal .app-my-xl { margin-top: 32px; margin-bottom: 32px }
+.reveal .app-p-none { padding: 0 }
+.reveal .app-p-xs { padding: 4px }
+.reveal .app-p-sm { padding: 8px }
+.reveal .app-p-md { padding: 16px }
+.reveal .app-p-lg { padding: 24px }
+.reveal .app-p-xl { padding: 32px }
+.reveal .app-pt-none { padding-top: 0 }
+.reveal .app-pt-xs { padding-top: 4px }
+.reveal .app-pt-sm { padding-top: 8px }
+.reveal .app-pt-md { padding-top: 16px }
+.reveal .app-pt-lg { padding-top: 24px }
+.reveal .app-pt-xl { padding-top: 32px }
+.reveal .app-pb-none { padding-bottom: 0 }
+.reveal .app-pb-xs { padding-bottom: 4px }
+.reveal .app-pb-sm { padding-bottom: 8px }
+.reveal .app-pb-md { padding-bottom: 16px }
+.reveal .app-pb-lg { padding-bottom: 24px }
+.reveal .app-pb-xl { padding-bottom: 32px }
+.reveal .app-pl-none { padding-left: 0 }
+.reveal .app-pl-xs { padding-left: 4px }
+.reveal .app-pl-sm { padding-left: 8px }
+.reveal .app-pl-md { padding-left: 16px }
+.reveal .app-pl-lg { padding-left: 24px }
+.reveal .app-pl-xl { padding-left: 32px }
+.reveal .app-pr-none { padding-right: 0 }
+.reveal .app-pr-xs { padding-right: 4px }
+.reveal .app-pr-sm { padding-right: 8px }
+.reveal .app-pr-md { padding-right: 16px }
+.reveal .app-pr-lg { padding-right: 24px }
+.reveal .app-pr-xl { padding-right: 32px }
+.reveal .app-px-none { padding-left: 0; padding-right: 0 }
+.reveal .app-py-none { padding-top: 0; padding-bottom: 0 }
+.reveal .app-px-xs { padding-left: 4px; padding-right: 4px }
+.reveal .app-py-xs { padding-top: 4px; padding-bottom: 4px }
+.reveal .app-px-sm { padding-left: 8px; padding-right: 8px }
+.reveal .app-py-sm { padding-top: 8px; padding-bottom: 8px }
+.reveal .app-px-md { padding-left: 16px; padding-right: 16px }
+.reveal .app-py-md { padding-top: 16px; padding-bottom: 16px }
+.reveal .app-px-lg { padding-left: 24px; padding-right: 24px }
+.reveal .app-py-lg { padding-top: 24px; padding-bottom: 24px }
+.reveal .app-px-xl { padding-left: 32px; padding-right: 32px }
+.reveal .app-py-xl { padding-top: 32px; padding-bottom: 32px }
+.reveal .app-fs-xs { font-size: 0.75em }
+.reveal .app-fs-sm { font-size: 0.9em }
+.reveal .app-fs-md { font-size: 1em }
+.reveal .app-fs-lg { font-size: 1.25em }
+.reveal .app-fs-xl { font-size: 1.5em }
+.reveal .app-fs-xxl { font-size: 2em }
+.reveal .app-text-left { text-align: left }
+.reveal .app-text-center { text-align: center }
+.reveal .app-text-right { text-align: right }
+.reveal .app-color-accent { color: var(--r-accent) }
+.reveal .app-bg-accent { background-color: var(--r-accent) }
+.reveal .app-border-accent { border-color: var(--r-accent); border-style: solid }
+.reveal .app-color-accent2 { color: var(--r-accent2) }
+.reveal .app-bg-accent2 { background-color: var(--r-accent2) }
+.reveal .app-border-accent2 { border-color: var(--r-accent2); border-style: solid }
+.reveal .app-color-info { color: var(--r-info-color) }
+.reveal .app-bg-info { background-color: var(--r-info-color) }
+.reveal .app-border-info { border-color: var(--r-info-color); border-style: solid }
+.reveal .app-color-success { color: var(--r-success-color) }
+.reveal .app-bg-success { background-color: var(--r-success-color) }
+.reveal .app-border-success { border-color: var(--r-success-color); border-style: solid }
+.reveal .app-color-warning { color: var(--r-warning-color) }
+.reveal .app-bg-warning { background-color: var(--r-warning-color) }
+.reveal .app-border-warning { border-color: var(--r-warning-color); border-style: solid }
+.reveal .app-color-danger { color: var(--r-danger-color) }
+.reveal .app-bg-danger { background-color: var(--r-danger-color) }
+.reveal .app-border-danger { border-color: var(--r-danger-color); border-style: solid }
+.reveal .app-color-text { color: var(--r-main-color) }
+.reveal .app-bg-text { background-color: var(--r-main-color) }
+.reveal .app-border-text { border-color: var(--r-main-color); border-style: solid }
+.reveal .app-color-muted { color: var(--r-muted-text) }
+.reveal .app-bg-muted { background-color: var(--r-muted-text) }
+.reveal .app-border-muted { border-color: var(--r-muted-text); border-style: solid }
+.reveal .app-color-surface { color: var(--r-surface) }
+.reveal .app-bg-surface { background-color: var(--r-surface) }
+.reveal .app-border-surface { border-color: var(--r-surface); border-style: solid }
+.reveal .app-color-surfaceAlt { color: var(--r-surface-alt) }
+.reveal .app-bg-surfaceAlt { background-color: var(--r-surface-alt) }
+.reveal .app-border-surfaceAlt { border-color: var(--r-surface-alt); border-style: solid }
+.reveal .app-color-border { color: var(--r-border-color) }
+.reveal .app-bg-border { background-color: var(--r-border-color) }
+.reveal .app-border-border { border-color: var(--r-border-color); border-style: solid }
+.reveal .app-color-background { color: var(--r-background-color) }
+.reveal .app-bg-background { background-color: var(--r-background-color) }
+.reveal .app-border-background { border-color: var(--r-background-color); border-style: solid }
+.reveal .app-rounded-none { border-radius: 0 }
+.reveal .app-rounded-sm { border-radius: 4px }
+.reveal .app-rounded-md { border-radius: 8px }
+.reveal .app-rounded-lg { border-radius: 12px }
+.reveal .app-rounded-full { border-radius: 999px }

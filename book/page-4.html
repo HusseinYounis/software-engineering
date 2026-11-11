@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" data-book-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="course-authoring-studio">
+
+<title>gdfgfd — Mr. Hussein Younis</title>
+<!-- CSS Stack (in order):
+     1. {theme}.css — CSS variables (--r-*) remapped to book palette
+     2. master.css — General element styles (.note, .callout, .card, .timeline, etc.)
+     3. design-utilities.css — Generated utility classes from design-tokens.json
+     4. book.css — Book layout styles (.book-frame, .book-sidebar, .book-content, etc.)
+-->
+<link rel="stylesheet" href="default.css">
+<link rel="stylesheet" href="master.css">
+<link rel="stylesheet" href="design-utilities.css">
+<link rel="stylesheet" href="book.css">
+<link rel="stylesheet" href="glightbox/glightbox.min.css">
+<link rel="stylesheet" href="katex.min.css">
+<link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+<!-- Element-specific CSS -->
+<style>
+
+.chapter-extra { margin-bottom: 1.4rem; }
+.chapter-extra .chapter-overview { margin: 0 0 1.4rem; }
+.chapter-extra .chapter-overview p { margin: .6em 0; }
+.chapter-extra .chapter-overview h2, .chapter-extra .chapter-quote h2 {
+  font-family: var(--r-heading-font, inherit);
+  font-size: 1.08em;
+  font-weight: var(--r-heading-font-weight, 750);
+  letter-spacing: .01em;
+  text-transform: uppercase;
+  color: var(--book-accent, var(--r-heading-color, #4338ca));
+  margin: 1.5em 0 .5em;
+}
+.chapter-extra .chapter-overview h2 { margin-top: .4em; }
+.chapter-extra .callout { margin-top: .2em; }
+.chapter-extra .callout .callout-content ol { padding-left: 1.4em; margin: 0; list-style: decimal; list-style-position: outside; }
+.chapter-extra .callout .callout-content ol li { list-style: decimal; }
+.chapter-extra .callout .callout-content .learning-outcomes-lead { margin: .2em 0 .6em; }
+.chapter-extra .callout .callout-content li { margin: .25em 0; }
+.chapter-extra .callout .callout-content li p { margin: .15em 0; }
+.chapter-extra .chapter-quote blockquote { margin-top: .4em; }
+.chapter-extra .chapter-quote blockquote footer { display: block; color: var(--book-muted); }
+
+
+.pdf-file-card{display:flex;align-items:center;gap:.9em;padding:.8em 1em;border:1px solid rgba(127,127,127,.35);border-radius:10px;text-decoration:none;color:inherit;background:rgba(127,127,127,.06);transition:border-color .15s ease,background .15s ease;margin:.5em 0;}.pdf-file-card:hover{border-color:#dc2626;background:rgba(220,38,38,.06);}.pdf-file-icon{flex:none;width:2.4em;height:2.4em;display:flex;align-items:center;justify-content:center;border-radius:8px;background:#dc2626;color:#fff;}.pdf-file-icon svg{width:1.3em;height:1.3em;}.pdf-file-body{min-width:0;display:flex;flex-direction:column;gap:.1em;}.pdf-file-title{font-weight:600;line-height:1.3;}.pdf-file-desc{font-size:.85em;opacity:.75;line-height:1.35;}.pdf-file-action{margin-left:auto;flex:none;font-size:.75em;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#dc2626;}.pdf-file-empty{cursor:default;opacity:.8;}.pdf-file-empty:hover{border-color:rgba(127,127,127,.35);background:rgba(127,127,127,.06);}
+
+.link-card{display:flex;align-items:center;gap:.9em;padding:.8em 1em;border:1px solid rgba(127,127,127,.35);border-radius:10px;text-decoration:none;color:inherit;background:rgba(127,127,127,.06);transition:border-color .15s ease,background .15s ease;margin:.5em 0;}.link-card:hover{border-color:#2563eb;background:rgba(37,99,235,.06);}.link-card-icon{flex:none;width:2.4em;height:2.4em;display:flex;align-items:center;justify-content:center;border-radius:8px;background:#2563eb;color:#fff;}.link-card-icon svg{width:1.3em;height:1.3em;}.link-card-body{min-width:0;display:flex;flex-direction:column;gap:.1em;}.link-card-title{font-weight:600;line-height:1.3;}.link-card-url{font-size:.8em;opacity:.6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}.link-card-action{margin-left:auto;flex:none;font-size:.75em;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#2563eb;}.link-card-empty{cursor:default;opacity:.8;}.link-card-empty:hover{border-color:rgba(127,127,127,.35);background:rgba(127,127,127,.06);}
+
+.tree-view{padding:.5em 0;font-size:.91em;line-height:1.8;}.tree-view-title{font-weight:700;font-size:1.06em;margin-bottom:.7em;padding-bottom:.35em;border-bottom:2px solid rgba(127,127,127,.14);}.tree-view ul,.tree-view li{list-style:none!important;margin:0;padding:0;}.tree-view details{display:block;margin:0;padding:0;}.tree-view summary{display:inline-flex;align-items:center;gap:.32em;list-style:none;cursor:pointer;padding:.05em .32em;border-radius:4px;transition:background .12s;}.tree-view summary::-webkit-details-marker{display:none!important;}.tree-view summary::marker{display:none!important;}.tree-view summary:hover{background:rgba(99,102,241,.07);}.tree-item{position:relative;padding:.03em 0;}.tree-root>.tree-item.tree-parent>details>summary{font-weight:700;font-size:1.02em;}.tree-root>.tree-item.tree-leaf>.tree-node-label{font-weight:700;font-size:1.02em;}.tree-node-label{display:inline-flex;align-items:center;gap:.32em;padding:.05em .32em;border-radius:4px;transition:background .12s;}.tree-leaf>.tree-node-label:hover{background:rgba(99,102,241,.07);}.tree-parent>details>summary::before{content:'';display:inline-block;width:0;height:0;border-top:.34em solid transparent;border-bottom:.34em solid transparent;border-left:.54em solid rgba(99,102,241,.55);flex-shrink:0;transition:transform .18s ease;}.tree-parent>details[open]>summary::before{transform:rotate(90deg);}.tree-leaf>.tree-node-label::before{content:'';display:inline-block;width:.46em;height:.46em;border-radius:50%;background:rgba(127,127,127,.28);flex-shrink:0;}.tree-children .tree-children{padding-left:1.5em;margin-left:.2em;position:relative;}.tree-children .tree-children::before{content:'';position:absolute;left:-.05em;top:.4em;bottom:.9em;width:1.5px;background:rgba(127,127,127,.2);border-radius:1px;}.tree-children .tree-children .tree-item{position:relative;}.tree-children .tree-children .tree-item::before{content:'';position:absolute;left:-1.22em;top:.9em;width:.82em;height:1.5px;background:rgba(127,127,127,.2);}.tree-view-empty{color:rgba(127,127,127,.7);font-style:italic;padding:.5em 0;}
+</style>
+</head>
+<body class="book book-theme-default" data-book>
+<div class="book-frame" id="top">
+
+<header class="book-topbar">
+  <button type="button" class="book-toggle" id="book-toggle" aria-label="Toggle sidebar">
+    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+  </button>
+  
+  <button type="button" class="book-theme-toggle" id="book-theme-toggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+  <i class="fa-solid fa-moon book-theme-icon-moon"></i>
+  <i class="fa-solid fa-sun book-theme-icon-sun"></i>
+</button>
+</header>
+  <div class="book-body">
+
+<aside class="book-sidebar" id="book-sidebar">
+  <div class="book-sidebar-header">
+    <a href="./index.html" class="book-brand">
+      <span class="book-brand-title">gdfgfd</span>
+      <span class="book-brand-subtitle">SOFTWARE ENGINEERING — gdfgfd</span>
+    </a>
+    
+    <label class="book-search">
+      <span class="book-search-field">
+        <i class="fa-solid fa-magnifying-glass book-search-icon" aria-hidden="true"></i>
+        <input type="search" id="book-search-input" placeholder="Search…" autocomplete="off">
+      </span>
+      <span class="book-search-count" id="book-search-count"></span>
+    </label>
+  </div>
+  <nav class="book-nav-container">
+    <ul class="book-nav"><li class="book-nav-chapter" data-chapter="Chapter 1">
+      <a class="book-nav-chapter-link" href="./appendix-Chapter 1.html#ch-ch-muyb1w6c-cq2044">
+        <span class="book-nav-chapter-num">Chapter 1</span>
+        <span class="book-nav-chapter-name">Introduction to Software Engineering</span>
+      </a>
+    </li><li class="book-nav-chapter" data-chapter="Chapter 2">
+      <a class="book-nav-chapter-link" href="./appendix-Chapter 2.html#ch-ch-muyb266x-4ubjtq">
+        <span class="book-nav-chapter-num">Chapter 2</span>
+        <span class="book-nav-chapter-name">Software Development Processes &amp; Agile Methodologies</span>
+      </a>
+    </li><li class="book-nav-chapter" data-chapter="Chapter 3">
+      <a class="book-nav-chapter-link" href="./appendix-Chapter 3.html#ch-ch-mw61duix-0t9hmi">
+        <span class="book-nav-chapter-num">Chapter 3</span>
+        <span class="book-nav-chapter-name">Requirements Engineering</span>
+      </a>
+    </li><li class="book-nav-chapter" data-chapter="standalone:pg-mvxzftx7-q1165c">
+      <a class="book-nav-chapter-link" href="#pg-mvxzftx7-q1165c">
+        
+        <span class="book-nav-chapter-name">gdfgfd</span>
+      </a>
+    </li></ul>
+  </nav>
+</aside>
+    <div class="book-main">
+      <div class="book-layout">
+        <main class="book-content">
+
+<article id="pg-mvxzftx7-q1165c" class="book-page " data-page-type="page">
+<section class="book-chapter-intro"><h1 id="pg-mvxzftx7-q1165c--gdfgfd" class="book-chapter-title">gdfgfd</h1></section>
+
+<section class="section-container "><h1 id="pg-mvxzftx7-q1165c--untitled-section" class="section-title book-heading">Untitled Section</h1></section>
+
+</article>
+        <nav class="book-site-pager"><a class="book-site-pager-prev" href="./appendix-Chapter 3.html"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Requirements Engineering</a><span></span></nav>
+</main>
+
+<aside class="book-toc-rail" id="book-toc-rail">
+  <div class="book-toc-rail-inner">
+    <span class="book-toc-rail-label">On this page</span>
+    <ul class="book-toc"><li class="book-toc-l1" data-target="pg-mvxzftx7-q1165c--untitled-section">
+          
+          <a href="#pg-mvxzftx7-q1165c--untitled-section">Untitled Section</a>
+        </li></ul>
+  </div>
+</aside>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="book-back-to-top" id="book-back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+</div>
+
+<script>
+window.BOOK_DATA = {"sidebar":true,"toc":true,"tocDepth":4,"searchEnabled":true,"themeToggle":true,"pageOnly":false,"date":null,"headings":[{"id":"pg-mvxzftx7-q1165c--untitled-section","text":"Untitled Section","pageId":"pg-mvxzftx7-q1165c","level":1}],"pages":[{"id":"pg-mvxzftx7-q1165c","title":"gdfgfd","section":null,"subsection":null,"chapterLabel":"standalone:pg-mvxzftx7-q1165c"}],"searchIndex":[{"pageId":"pg-mvxzftx7-q1165c","title":"gdfgfd","text":"gdfgfd Untitled Section"}]};
+</script>
+<script src="glightbox/glightbox.min.js"></script>
+<script src="book.js"></script>
+
+
+</body>
+</html>

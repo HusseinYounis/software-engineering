@@ -204,7 +204,7 @@
 .reveal .details > *:last-child,
 
 .reveal .slides section {
-    counter-reset: example-counter scenario-counter exercise-counter;
+    counter-reset: example-counter scenario-counter exercise-counter problem-counter;
 }
 
   .reveal .slide-logo {
