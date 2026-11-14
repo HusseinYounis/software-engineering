@@ -2665,3 +2665,18 @@
 .reveal .material-ref-error-icon {
   margin-right: 0.25rem;
 }
+
+
+/* ── Document element ─────────────────────────────────────────────── */
+.reveal .doc-page {
+  font-size: 0.62em;
+  padding: 1.6em 2em 1.4em;
+  margin: 0.3em auto;
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.18),
+    0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+.reveal .doc-title {
+  font-size: 1.55em;
+}

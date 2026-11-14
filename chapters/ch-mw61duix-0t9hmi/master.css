@@ -4989,3 +4989,155 @@ pre.code-block-light,
 /* Pandoc token classes → theme palette */
 
 /* ── Material references ──────────────────────────────────────────── */
+
+
+/* ============================================================
+   DOCUMENT ELEMENT — Word-like paper document
+   ============================================================ */
+.doc-page {
+  background: #ffffff;
+  color: #1c1c1c;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.10),
+    0 4px 14px rgba(0, 0, 0, 0.12),
+    0 10px 32px rgba(0, 0, 0, 0.07);
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 2.6em 3em 2.4em;
+  margin: 1em auto;
+  max-width: 760px;
+  font-family: "Calibri", "Segoe UI", "Liberation Sans", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.65;
+  position: relative;
+}
+
+.doc-page.doc-page--compact { max-width: 560px; }
+.doc-page.doc-page--wide    { max-width: 980px; }
+
+.doc-header {
+  margin-bottom: 1.2em;
+}
+
+.doc-title {
+  font-family: "Calibri", "Segoe UI", "Liberation Sans", Arial, sans-serif;
+  font-size: 1.85em;
+  font-weight: 700;
+  color: #1c3557;
+  margin: 0 0 0.3em;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  border: none;
+  padding: 0;
+}
+
+.doc-rule {
+  height: 2px;
+  background: linear-gradient(to right, #2b579a 0%, #2b579a 55%, transparent 100%);
+  border: none;
+  margin: 0;
+}
+
+.doc-body {
+  font-size: 1em;
+  line-height: 1.65;
+  color: #1c1c1c;
+}
+
+.doc-body > p:first-child { margin-top: 0; }
+.doc-body > *:last-child  { margin-bottom: 0; }
+.doc-body p { margin: 0 0 0.75em; }
+
+.doc-body h1,
+.doc-body h2,
+.doc-body h3,
+.doc-body h4,
+.doc-body h5,
+.doc-body h6 {
+  font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+  color: #1c3557;
+  margin: 1.1em 0 0.35em;
+  line-height: 1.25;
+  font-weight: 700;
+  border: none;
+}
+.doc-body h1 { font-size: 1.45em; }
+.doc-body h2 { font-size: 1.25em; }
+.doc-body h3 { font-size: 1.1em;  }
+.doc-body h4 { font-size: 1em;    }
+
+.doc-body ul,
+.doc-body ol {
+  padding-left: 1.8em;
+  margin: 0 0 0.75em;
+}
+.doc-body li { margin-bottom: 0.25em; }
+
+.doc-body strong { font-weight: 700; }
+.doc-body em     { font-style: italic; }
+
+.doc-body blockquote {
+  border-left: 3px solid #2b579a;
+  margin: 0.75em 0;
+  padding: 0.4em 0 0.4em 1em;
+  color: #555;
+}
+
+.doc-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  font-size: 0.95em;
+}
+.doc-body table th,
+.doc-body table td {
+  border: 1px solid #c8c8c8;
+  padding: 0.4em 0.65em;
+  text-align: left;
+}
+.doc-body table th {
+  background: #e9f0f8;
+  font-weight: 700;
+  color: #1c3557;
+}
+.doc-body table tr:nth-child(even) td { background: #f4f8fd; }
+
+.doc-body hr {
+  border: none;
+  border-top: 1px solid #d4d4d4;
+  margin: 1em 0;
+}
+
+.doc-body code {
+  background: #f0f0f0;
+  border-radius: 3px;
+  padding: 0.1em 0.4em;
+  font-size: 0.88em;
+  font-family: "Courier New", Courier, monospace;
+  color: #c7254e;
+}
+
+.doc-body pre {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.75em 1em;
+  overflow-x: auto;
+  font-size: 0.88em;
+  line-height: 1.5;
+  margin: 0.75em 0;
+}
+
+.doc-footer {
+  margin-top: 2em;
+  padding-top: 0.6em;
+  border-top: 1px solid #d4d4d4;
+  display: flex;
+  justify-content: center;
+}
+
+.doc-page-num {
+  font-size: 0.8em;
+  color: #999;
+  font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+}
